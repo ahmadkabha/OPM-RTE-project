@@ -1,0 +1,100 @@
+#myDiv {
+    background-color: black;
+    width: 95%;
+    margin: 1em auto;
+    padding: 1em;
+    white-space: pre;
+    display: block;
+    font-family: monospace;
+    border-radius: 8px;
+    user-select:text;
+}
+/* Style the tab */
+.tab {
+    visibility: hidden;
+    width: 95%;
+    margin: 1em auto;
+    padding: 1em;
+    font-family: monospace;
+    padding-left: 0px;
+
+  }
+  
+  /* Style the buttons inside the tab */
+  .tablinks {
+      visibility: visible;
+      color: white;
+    background-color:black;
+    border-radius: 8px;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-top: 5px;
+    transition: 0.3s;
+    font-size: 17px;
+    width: auto;
+    height: 35px;
+    padding-left: 5px;
+  }
+  .dd{
+    visibility: visible;
+    color: white;
+  background-color:black;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  padding-top: 5px;
+  transition: 0.3s;
+  font-size: 17px;
+  width: auto;
+  height: 35px;
+  padding-left: 5px;
+  float: right;
+  }  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Create an active/current tablink class */
+  button.active {
+      color: blue;
+      transform: scale(1.2);
+  }
+  
+.operative { font-weight: bold; font-size: 16px};
+
+//put the following css in client/styles.css
+
+// .list{
+//   z-index: 2;
+//   margin-bottom: 0px;
+//   margin-top: 0px;
+//   background-color:black;
+//   color:rgb(193, 193, 255);
+//   display: block;
+//   list-style-type: decimal;
+//   margin-block-start: 1em;
+//   margin-block-end: 1em;
+//   margin-inline-start: 0px;
+//   margin-inline-end: 0px;
+//   padding-inline-start: 40px
+//   }
+// .evenLine{ margin-bottom: 5px;height: 25px;width: 100%;margin-right: 0px;}
+// .oddLine{margin-bottom: 5px;height: 25px;width: 100%;margin-right: 0px;}
+// .linenum{font-size: 20px;width: 100% }
+// .cmd{color: purple;}
+// .type{color: rgb(93, 188, 248);}
+// .bigtype{color: rgb(24, 24, 252)}
+// .nam{color: rgb(0, 160, 0)}
+// .funcs{color: wheat}
+// .strng{color: #b1682d;}
+// .vars{color: cyan}
